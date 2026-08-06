@@ -1,9 +1,10 @@
+import Navbar from "@/components/frontend/Navbar";
 import React, { ReactNode } from "react";
 
 function Layout({ children }: { children: ReactNode }) {
   return (
     <div>
-      <h1>I am front only Pages Layout </h1>
+      <Navbar />
       {children}
     </div>
   );
